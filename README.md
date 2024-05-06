@@ -1,17 +1,17 @@
-# allen
+# AI Voice Assistant App (Flutter)
 
-A new Flutter project.
+Welcome to your new voice assistant!
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+This project combines OpenAI's ChatGPT API with their Dall-E API to allow users to
+talk to the assistant on the app and interact with ChatGPT and generative AI.  
 
-A few resources to get you started if this is your first Flutter project:
+## Program Flow
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# flutter-ai-voice-assistant-app" 
+**1)** You speak into the microphone and the app converts your speech to text
+**2)** The app calls ChatGPT through the API and determines whether you are asking 
+       for an image or not (whether we will need to use Dall-E or not).
+**3)** Based on the response of that API call (to ChatGPT) that we sent, we send
+       another API call to the respective API to handle our request.
+**4)** We display the response from the API call and give the user the answer.
