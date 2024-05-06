@@ -7,6 +7,13 @@ Welcome to your new voice assistant!
 This project combines OpenAI's ChatGPT API with their Dall-E API to allow users to
 talk to the assistant on the app and interact with ChatGPT and generative AI.  
 
+## How to run the app
+
+- Clone the repository to any folder of your choice
+- **cd** into the allen folder
+- Run the command **flutter run** and the project will start up
+- *Enter 1,2, or 3 into the command line for your choice of browser to run the app on*
+
 ## Program Flow
 
 - **1)** You speak into the microphone and the app converts your speech to text
