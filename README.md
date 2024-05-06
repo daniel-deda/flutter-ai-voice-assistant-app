@@ -22,3 +22,5 @@ for an image or not (whether we will need to use Dall-E or not).
 - **3)** Based on the response of that API call (to ChatGPT) that we sent, we send
        another API call to the respective API to handle our request.
 - **4)** We display the response from the API call and give the user the answer.
+
+*Note: Please contact me at danieldeda165@gmail.com if you have any issues with the code or running it*
